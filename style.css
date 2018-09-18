@@ -3,7 +3,6 @@ body, html {
     margin: 0;
     background-color: black;
     overflow-x: hidden;
-    margin-bottom:-20px;
 
 }
 .container {
@@ -11,7 +10,6 @@ body, html {
     height:100vw;
     width:100vw;
     background-color: black;
-    margin-bottom:20px;
 }
 img {
   max-width: 100%;
