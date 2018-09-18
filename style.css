@@ -16,6 +16,10 @@ img {
     max-height: 100%;
 
 }
+
+a {
+color: #FFFFFF;
+}
     .astro {
     position: absolute;
     height: 20%;
@@ -43,13 +47,15 @@ img {
 .sig {
   position: absolute;
   height: auto;
-  width: calc(55% - 35vw);
+  width: calc(55% - 33vw);
   bottom: 0%;
   left: 44%;
-  z-index: 5;
-  font-size: 30%;
+  z-index: 55;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2vw;
   text-align: center;
   color: white;
+
 }
 .bg{
   position:absolute;
