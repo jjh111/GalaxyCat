@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+    margin-bottom:-20px;
+
+}
+.container {
+    position: absolute;
+    height:100vw;
+    width:100vw;
+    background-color: black;
+    margin-bottom:20px;
+}
+img {
+  max-width: 100%;
+    max-height: 100%;
+
+}
+    .astro {
+    position: absolute;
+    height: 20%;
+    width: auto%;
+    bottom: 33%;
+    right: 22%;
+    z-index: 1;
+  }
+    .galcat {
+      position: absolute;
+      height: 80%;
+      width: auto;
+      bottom: 0%;
+      left: -4%;
+      z-index: 2;
+    }
+  .galaxy {
+    position: absolute;
+    height: 20%;
+    width: auto;
+    bottom: 55%;
+    left: calc(55% - 35vw);
+    z-index: 1;
+}
+.sig {
+  position: absolute;
+  height: auto;
+  width: calc(55% - 35vw);
+  bottom: 0%;
+  left: 44%;
+  z-index: 5;
+  font-size: 30%;
+  text-align: center;
+  color: white;
+}
+.bg{
+  position:absolute;
+width: 100vw;
+height: 100vw;
+  left:0;
+  right:0;
+  z-index: 0;
+  background-color: black;
+  margin-bottom:320px;
+}
