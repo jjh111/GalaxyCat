@@ -44,16 +44,16 @@ img {
 
 /* Standard syntax */
 @keyframes galcat {
-    0%   {  bottom: 0%; left: -5%;}
+    0%   {  bottom: 0%; left: -4%;}
     50% {  bottom: 0%;left: -2%;}
-    100% {  bottom: 0%;left: -5%;}
+    100% {  bottom: 0%;left: -4%;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes galaxy {
-  0%   {  bottom: 55%; left: 22%;}
-  50% {  bottom: 57%; left: 19%;}
-  100% {  bottom: 55%; left: 22%;}
+  0%   {  bottom: 53%; left: 19%;}
+  50% {  bottom: 57%; left: 22%;}
+  100% {  bottom: 53%; left: 19%;}
 }
 
 /* Standard syntax */
