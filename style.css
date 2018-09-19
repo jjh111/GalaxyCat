@@ -17,6 +17,52 @@ img {
 
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes astrobob {
+  0%   {bottom: 33%; right: 22%;}
+  25%  {bottom: 30%;right: 22%;}
+  50%  {bottom: 33%; right: 22%;}
+  75%  {bottom: 30%; right: 22%;}
+  100% {bottom: 33%; right: 22%;}
+}
+
+/* Standard syntax */
+@keyframes astrobob {
+    0%   {bottom: 33%; right: 22%;}
+    25%  {bottom: 32%;right: 22%;}
+    50%  {bottom: 33%; right: 22%;}
+    75%  {bottom: 32%; right: 22%;}
+    100% {bottom: 33%; right: 22%;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes galcat {
+  0%   {  bottom: 0%; left: -5%;}
+  50% {  bottom: 0%;left: -2%;}
+  100% {  bottom: 0%;left: -5%;}
+}
+
+/* Standard syntax */
+@keyframes galcat {
+    0%   {  bottom: 0%; left: -5%;}
+    50% {  bottom: 0%;left: -2%;}
+    100% {  bottom: 0%;left: -5%;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes galaxy {
+  0%   {  bottom: 55%; left: 22%;}
+  50% {  bottom: 57%; left: 19%;}
+  100% {  bottom: 55%; left: 22%;}
+}
+
+/* Standard syntax */
+@keyframes galaxy {
+    0%   {  bottom: 53%; left: 19%;}
+    50% {  bottom: 57%; left: 22%;}
+    100% {  bottom: 53%; left: 19%;}
+}
+
 a {
 color: #FFFFFF;
 }
@@ -27,6 +73,12 @@ color: #FFFFFF;
     bottom: 33%;
     right: 22%;
     z-index: 1;
+    -webkit-animation-name: astrobob; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: astrobob;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
   }
     .galcat {
       position: absolute;
@@ -35,14 +87,26 @@ color: #FFFFFF;
       bottom: 0%;
       left: -4%;
       z-index: 2;
+      -webkit-animation-name: galcat; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 22s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+      animation-name: galcat;
+      animation-duration: 22s;
+      animation-iteration-count: infinite;
     }
   .galaxy {
     position: absolute;
     height: 20%;
     width: auto;
     bottom: 55%;
-    left: calc(55% - 35vw);
+    left: 22%;
     z-index: 1;
+    -webkit-animation-name: galaxy; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 22s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: galaxy;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
 }
 .sig {
   position: absolute;
