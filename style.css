@@ -84,7 +84,7 @@ color: #FFFFFF;
     animation-name: astrobob;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    
+    visibility: block;
   }
     .galcat {
       position: absolute;
