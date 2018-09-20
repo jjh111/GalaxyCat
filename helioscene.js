@@ -1,4 +1,4 @@
-
+function heliodetect(){
   if (window.mlWorld) {
     // this is the Helio browser and is capable of rendering spatialized content
 
@@ -12,3 +12,5 @@
 
     console.log('twoD browser');
 }
+}
+heliodetect();
