@@ -9,7 +9,7 @@ console.log('helio detected');
   } else {
     // this is not Helio
 function show(){
-document.getElementByClassName("astro2d").display = "";
+document.getElementByClassName("astro2d").display = "block";
   }
   console.log('twoD browser');
 }
