@@ -68,6 +68,8 @@ color: #FFFFFF;
 
   #astro3d{
     position: absolute;
+    height: 100%;
+    width: auto;
   }
   .astro2d{
     position: absolute;
