@@ -14,7 +14,6 @@ body, html {
 img {
   max-width: 100%;
     max-height: 100%;
-
 }
 
 /* Safari 4.0 - 8.0 */
@@ -66,7 +65,8 @@ img {
 a {
 color: #FFFFFF;
 }
-    .astro {
+
+  .astro2d{
     position: absolute;
     height: 20%;
     width: auto;
@@ -79,6 +79,7 @@ color: #FFFFFF;
     animation-name: astrobob;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    display: block;
   }
     .galcat {
       position: absolute;
