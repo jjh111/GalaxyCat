@@ -71,7 +71,7 @@ color: #FFFFFF;
     height: 100%;
     width: auto;
   }
-  .astro2d{
+  #astro2d{
     position: absolute;
     height: 20%;
     width: auto;

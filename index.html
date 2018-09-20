@@ -8,13 +8,24 @@
 
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-<script src="helioscene.js"></script>
+
 </head>
 <script src="prismatic.min.js"></script>
 <div class="container">
+  <script type="text/javascript">
+           <!--
+           var x = document.getElementById("astro2d");
+                if (window.mlWorld) {
+                x.style.visibility = "none";
+              }
 
+              else{
+                x.style.visibility = "block";
+               }
+           //-->
+        </script>
 <div class="astro">
-  <div class="astro2d" visibility:block>
+  <div id="astro2d" visibility:block>
   <img src="images/jhreg.png">
 </div>
   <ml-quad
