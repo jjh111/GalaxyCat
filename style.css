@@ -73,13 +73,6 @@ color: #FFFFFF;
     bottom: 33%;
     right: 22%;
     z-index: 1;
-    -webkit-animation-name: astrobob; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-    animation-name: astrobob;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    display: block;
   }
   .astro2d{
     position: absolute;
