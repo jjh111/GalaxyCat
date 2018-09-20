@@ -66,7 +66,7 @@ a {
 color: #FFFFFF;
 }
 
-  .astro{
+  #astro3d{
     position: absolute;
     height: 20%;
     width: auto;
@@ -94,7 +94,7 @@ color: #FFFFFF;
     animation-name: astrobob;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    
+    display: block;
   }
     .galcat {
       position: absolute;
