@@ -14,7 +14,6 @@ body, html {
 img {
   max-width: 100%;
     max-height: 100%;
-
 }
 
 /* Safari 4.0 - 8.0 */
@@ -66,7 +65,13 @@ img {
 a {
 color: #FFFFFF;
 }
-    .astro {
+
+  #astro3d{
+    position: absolute;
+    height: 100%;
+    width: auto;
+  }
+  #astro2d{
     position: absolute;
     height: 20%;
     width: auto;
@@ -74,11 +79,12 @@ color: #FFFFFF;
     right: 22%;
     z-index: 1;
     -webkit-animation-name: astrobob; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: astrobob;
-    animation-duration: 14s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
+    visibility: block;
   }
     .galcat {
       position: absolute;
@@ -88,10 +94,10 @@ color: #FFFFFF;
       left: -4%;
       z-index: 2;
       -webkit-animation-name: galcat; /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 22s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 12s; /* Safari 4.0 - 8.0 */
       -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
       animation-name: galcat;
-      animation-duration: 22s;
+      animation-duration: 12s;
       animation-iteration-count: infinite;
     }
   .galaxy {
@@ -102,10 +108,10 @@ color: #FFFFFF;
     left: 22%;
     z-index: 1;
     -webkit-animation-name: galaxy; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 22s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 12s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: galaxy;
-    animation-duration: 22s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 .sig {
