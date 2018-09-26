@@ -38,7 +38,7 @@
          </ml-quad>
 </div>
 <div class="galcat">
-  <img src="images/galcat.png">
+  <img id="cat2d" src="images/galcat.png">
   <ml-quad
            id="cat3d"
            src="images/galcat.png"
@@ -50,7 +50,7 @@
          </ml-quad>
 </div>
 <div class="galaxy">
-  <img src="images/galaxy.png">
+  <img id="gal2d" src="images/galaxy.png">
   <ml-quad
            id="gal3d"
            src="images/galaxy.png"
@@ -70,6 +70,18 @@
 <script>
 if (window.mlWorld) {
 document.getElementById("astro2d").style.visibility = "hidden";
+}
+</script>
+
+<script>
+if (window.mlWorld) {
+document.getElementById("cat2d").style.visibility = "hidden";
+}
+</script>
+
+<script>
+if (window.mlWorld) {
+document.getElementById("gal2d").style.visibility = "hidden";
 }
 </script>
 

@@ -1,5 +1,16 @@
-if (window.mlWorld) {
+function heliodetect(){
+  if (window.mlWorld) {
+    // this is the Helio browser and is capable of rendering spatialized content
 
-} else {
-<img src="images/jhreg.png">
+    document.getElementByClassName("astro2d").style.visibility = "none";
+
+    console.log('helio detected');
+
+  } else {
+    // this is not Helio
+    document.getElementByClassName("astro2d").style.visibility = "block";
+
+    console.log('twoD browser');
 }
+}
+heliodetect();
