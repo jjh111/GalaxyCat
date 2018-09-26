@@ -14,7 +14,7 @@
 <div class="container">
 
 <div class="astro">
-  <img src="images/jhreg.png">
+  <img id="astro2d" src="images/jhreg.png">
   <ml-quad
            id="astro3d"
            src="images/jhreg.png"
@@ -56,6 +56,11 @@
   <img src="images/vdb31AdamBlock.jpg">
 </div>
 
+<script>
+if (window.mlWorld) {
+document.getElementById("astro2d").style.visibility = "hidden";
+}
+</script>
 
 <div class="sig">
 <p>
