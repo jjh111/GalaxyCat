@@ -76,7 +76,7 @@ color: #FFFFFF;
     height: 25%;
     width: 25%;
     bottom: 33%;
-    right: 22%;
+    margin-right: -9%;
     z-index: 1;
     -webkit-animation-name: astrobob; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
